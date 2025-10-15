@@ -1,0 +1,123 @@
+body{
+    background: rgb(1, 1, 35);
+}
+
+.box{
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 130px;
+ position: relative;
+    animation: animate 5s linear infinite ;
+
+}
+
+
+@keyframes animate { 0%,100%
+    {
+        left:10px;
+        border-radius: 30px;
+        
+}
+25%{
+    left:0 ;top: 0;
+
+}
+ 50%{
+    
+
+ }
+
+ 75%{
+    background:url(img4.jpg) ;background-repeat: no-repeat ;background-size: contain;
+    left:0px ;
+}
+
+}
+
+
+
+
+.nav{
+margin: auto;
+    width: 1000px;
+    height: 50px;
+
+}
+
+.after-nav{
+    display: flex;
+    justify-content: space-around;
+   align-items: center; 
+   font-size: larger;
+   font-family: 'Geist';
+   font-weight: 400px;
+   
+}
+
+.after-nav1{
+    display: flex;
+    width: 400px;
+    height: 70px;
+    justify-content: space-between;
+    align-items:center ;
+    font-size: larger;
+    font-family: 'Geist';
+    font-weight: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Geist';
+}
+
+.after-box{
+height: 500px;
+    width: 1000px;
+    background: rgb(8, 8, 32);
+    border-radius: 30px;
+box-shadow: -12px 20px 30px lightskyblue;
+border: 1.5px dotted lightgray;
+}
+
+.brief{
+    display: flex;
+    width: 1000px;
+    height: 460px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.specail-two{
+    display: flex;
+    width: 230px;
+    height: 45px;
+    justify-content: space-between;
+    
+}
+
+.started{
+    background:lightblue;
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cv{
+    background:lightblue;
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.social{
+    margin-top: 39px;
+}
+
