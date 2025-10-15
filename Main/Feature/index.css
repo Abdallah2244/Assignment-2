@@ -1,0 +1,59 @@
+body{
+    margin: auto;
+    margin-right: 0;
+}
+
+.nav{
+    width: 1280px;
+    height: 557px;
+}
+
+.after-nav{
+    width: 1277px;
+  height:557px ;
+    background: url(wasap.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-weight: 400px;
+   
+}
+
+.after-nav1{
+       width: 617px;
+  height:557px ;
+    display: flex;
+    align-items: center;
+ 
+
+}
+
+.after-nav2{  display: flex;
+    background:whitesmoke ;
+      width: 670px;
+  height:557px ;
+  
+}
+
+.inside-nav2{display: flex;
+    flex-direction: column;
+ 
+}
+
+.after-uni{ display: flex;
+    width: 670px;
+    height: 80px;
+   font-size: 20px;
+   align-items: center;
+   background: linear-gradient(rgb(98, 98, 221),rgb(225, 175, 81));
+}
+
+
+input{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    border: 0.5px solid gray;
+}
