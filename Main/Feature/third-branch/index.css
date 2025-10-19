@@ -1,0 +1,140 @@
+
+body{
+    width: 1200px;
+    height: 1000px;
+    background-color: bisque;
+   margin: 0;
+}
+
+
+.nav{
+   margin-left: 35px;
+   margin-right: 40px;
+   width: 1200px;
+   height: 2110px;
+   background: white;
+}
+
+.after-nav{
+    width: 1200px;
+    height: 40px;
+    background: linear-gradient(green,yellow);
+   
+}
+
+.inside-nav{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    align-items: center;
+}
+
+.atu-icon{
+    width: 1200px;
+    height: 220px;
+  
+}
+
+.after-icon{
+    display: flex;
+   align-items: center;
+}
+
+.list-side{
+    border: 1px solid gray;
+    width:1200px ;
+    height:220px ;
+    background: url(WhatsApp\ Image\ 2025-10-16\ at\ 16.31.49_abdccab7.jpg);background-size: contain;
+    background-repeat:repeat;
+}
+
+.Home-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: Gold;font-weight: 400px;
+}
+.after-list{ 
+    border: 1px solid gray;
+    width:1200px ;
+    height: 40px;
+    background:rgb(16, 16, 180) ;
+}
+
+          
+.About-Atu{
+ text-decoration: none;
+}
+
+select{
+    text-decoration: none;
+   width: 120px;
+   height: 30px;
+    border: 0;
+    background: rgb(16, 16, 180);
+    color:gold ;
+}
+
+.writing{
+    display: flex;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.resources{margin-top: 20px;
+    background: hsl(33, 74%, 73%);
+    border: 1px solid gray;
+    height: 1000px;
+    width: 400px;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-right: 50px;
+}
+
+
+.last-time{
+    background: black;
+     width: 1280px;
+    height: 600px;
+}
+
+.after-last{
+   
+    width: 1270px;
+    height: 70px;
+    display: flex;
+    color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+.after-last1{
+    display: flex;
+    width: 1274px;
+    height:480px ;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.your-email{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+  padding-left: 08px;
+ text-decoration: none;
+
+}
+
+.after-email{
+    margin-top: 70px;
+        width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    background: rgb(216, 187, 24);
+    text-decoration: none;
+}
